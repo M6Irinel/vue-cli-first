@@ -1,19 +1,20 @@
 <template>
   <div id="app" class="container">
-    <Title />
-    <Hero />
+    <title-vue />
+    <hero-vue />
   </div>
 </template>
 
 <script>
-import Title from './components/Title.vue';
-import Hero from './components/Hero.vue';
+import TitleVue from './components/TitleVue.vue';
+import HeroVue from './components/HeroVue.vue';
 
 export default {
   name: 'App',
+  
   components: {
-    Title,
-    Hero
+    TitleVue,
+    HeroVue
   }
 }
 </script>
